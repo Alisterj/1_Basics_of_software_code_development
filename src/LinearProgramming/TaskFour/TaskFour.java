@@ -1,7 +1,5 @@
-package TaskFour;
+package LinearProgramming.TaskFour;
 
-import javax.swing.*;
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class TaskFour {

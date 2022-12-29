@@ -1,10 +1,10 @@
-package TaskOne;
+package LinearProgramming.TaskTwo;
 
 import java.util.Scanner;
 
-public class TaskOne {
+public class TaskTwo {
     public static void main(String[] args) {
-        // Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
+        //Вычислить значение выражения по формуле (все переменные принимают действительные значения):
         int a = functionForWrite("a");
         int b = functionForWrite("b");
         int c = functionForWrite("c");
@@ -16,7 +16,7 @@ public class TaskOne {
         System.out.print("Please write " + nameVariable + ": ");
         return sc.nextInt();
     }
-    public static int linearFunction(int a, int b, int c) {
-        return ((a - 3) * b / 2) + c;
+    public static double linearFunction(int a, int b, int c) {
+        return ((b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2 * a)) + (Math.pow(-a, 3)) * c + Math.pow(b, -2);
     }
 }

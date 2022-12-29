@@ -1,6 +1,4 @@
-package TaskFive;
-
-import java.util.Scanner;
+package LinearProgramming.TaskFive;
 
 public class TaskFive {
     //Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах. Вывести

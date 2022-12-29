@@ -1,4 +1,4 @@
-package TaskThree;
+package LinearProgramming.TaskThree;
 
 import java.util.Scanner;
 
